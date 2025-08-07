@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2107b6;
+    color: #333;
+}
+header {
+    background: #fffdd0; /* cream color */
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: green;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+header p {
+    margin: 5px 0;
+}
+.slogan h2 {
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #e97508;
+}
+.products {
+    background: rgba(5, 115, 158, 0);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.products h3 {
+    margin-top: 0;
+}
+.products ul {
+    list-style: none;
+    padding: 0;
+}
+.products li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
