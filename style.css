@@ -1,7 +1,7 @@
 body <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-about">
-      <h3>About Durban-Shopping-Runner</h3>
+      <h3>About Durban-Shopping-Runner with Siiwe</h3>
       <p>We deliver the latest fashion trends straight from Durban to your doorstep. Fast, stylish, and locally owned by Siiwe Zazi.</p>
     </div>
     <div class="footer-socials">
@@ -30,6 +30,37 @@ header h1 {
     font-size: 3em;
     font-weight: bold;
     margin: 0;
+
+   .about-section {
+  background-color: #f7f7f7;
+  padding: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.about-section h2 {
+  color: #006400; /* dark green */
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1em;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+ 
 }
 header p {
     margin: 5px 0;
